@@ -1,0 +1,7 @@
+{
+    "variants":{
+        "": {
+            "model": "victorium:block/victorium_block"
+        }
+    }
+}

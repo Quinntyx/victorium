@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "victorium:victorium_crystal"
+        }
+    },
+    "result": {
+        "item": "victorium:victorium_block"
+    }
+}

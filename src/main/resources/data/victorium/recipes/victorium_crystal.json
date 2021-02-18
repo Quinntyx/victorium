@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "victorium:victorium_block"
+      }
+    ],
+    "result": {
+      "item": "victorium:victorium_crystal",
+      "count": 9
+    }
+  }

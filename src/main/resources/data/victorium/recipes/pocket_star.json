@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "YXY",
+      "X#X",
+      "ZXU"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:nether_star"
+      },
+      "X": {
+        "item": "victorium:victorium_block"
+      },
+      "Y": {
+        "item": "minecraft:diamond_block"
+      },"Z": {
+        "item": "minecraft:gold_block"
+      },
+      "U": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "victorium:pocket_star"
+    }
+  }
