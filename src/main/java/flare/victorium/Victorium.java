@@ -1,10 +1,7 @@
 package flare.victorium;
 
 import flare.victorium.ore.VictoriumOreBlock;
-import flare.victorium.tool.CustomHoeItem;
-import flare.victorium.tool.CustomPickaxeItem;
-import flare.victorium.tool.CustomShovelItem;
-import flare.victorium.tool.CustomSwordItem;
+import flare.victorium.tool.*;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.BlockItem;
@@ -44,6 +41,7 @@ public class Victorium implements ModInitializer {
 		CustomSwordItem.registerItems();
 		CustomPickaxeItem.registerItems();
 		CustomShovelItem.registerItems();
+		CustomAxeItem.registerItems();
 
 		VictoriumOreBlock.registerItems();
 
