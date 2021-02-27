@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "victorium:victorium_plate"
+    }
+  },
+  "result": {
+    "item": "victorium:victorium_chestplate"
+  }
+}

@@ -1,8 +1,11 @@
 package flare.victorium;
 
+import flare.victorium.armor.VictoriumCrystalArmor;
+import flare.victorium.blockentity.FusionTableEntity;
 import flare.victorium.ore.VictoriumOreBlock;
 import flare.victorium.tool.*;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.sound.BlockSoundGroup;
@@ -21,8 +24,18 @@ public class Victorium implements ModInitializer {
 	public static final Block VICTORIUM_BLOCK = new Block(FabricBlockSettings.of(Material.AGGREGATE)
 			.strength(15.0F, 15.0F).sounds(BlockSoundGroup.BONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
 
+	public static final Block INFINITITE_BLOCK_T1 = new Block(FabricBlockSettings.of(Material.AGGREGATE)
+			.strength(20.0F, 20.0F).sounds(BlockSoundGroup.ANCIENT_DEBRIS).breakByTool(FabricToolTags.PICKAXES).requiresTool());
+
 	public static final Item VICTORIUM_BLADE = new Item(new Item.Settings().group(ItemGroup.MATERIALS).maxCount(16));
-	public static final Item SCORCHED_VICTORIUM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+	public static final Item VICTORIUM_PLATE = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+
+	public static final Item DEPLETED_ENDIUM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+
+	public static BlockEntityType<FusionTableEntity> FUSION_TABLE_ENTITY;
+	public static final Block FUSION_TABLE = new Block(FabricBlockSettings.of(Material.WOOD)
+			.strength(5.0F,15.0F).sounds(BlockSoundGroup.WOOD).breakByTool(FabricToolTags.AXES).requiresTool());
+
 
 	@Override
 	public void onInitialize() {
@@ -35,13 +48,29 @@ public class Victorium implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("victorium", "victorium_block"),
 				new BlockItem(VICTORIUM_BLOCK, new Item.Settings().group(ItemGroup.DECORATIONS)));
 		Registry.register(Registry.ITEM, new Identifier("victorium", "victorium_blade"), VICTORIUM_BLADE);
-		Registry.register(Registry.ITEM, new Identifier("victorium", "scorched_victorium"), SCORCHED_VICTORIUM);
+		Registry.register(Registry.ITEM, new Identifier("victorium", "victorium_plate"), VICTORIUM_PLATE);
+		Registry.register(Registry.ITEM, new Identifier("victorium", "depleted_endium"), DEPLETED_ENDIUM);
 
-		CustomHoeItem.registerItems();
-		CustomSwordItem.registerItems();
-		CustomPickaxeItem.registerItems();
+		Registry.register(Registry.BLOCK, new Identifier("victorium", "infinitite_block_t1"), INFINITITE_BLOCK_T1);
+		Registry.register(Registry.ITEM, new Identifier("victorium", "infinitite_block_t1"),
+				new BlockItem(INFINITITE_BLOCK_T1, new Item.Settings().group(ItemGroup.DECORATIONS)));
+
+		Registry.register(Registry.BLOCK, new Identifier("victorium", "fusion_table"), FUSION_TABLE);
+		Registry.register(Registry.ITEM, new Identifier("victorium", "fusion_table"),
+				new BlockItem(FUSION_TABLE, new Item.Settings().group(ItemGroup.DECORATIONS)));
+
+		//FUSION_TABLE = Registry.register(Registry.BLOCK_ENTITY_TYPE, "victorium:fusion_table",
+		//		BlockEntityType.Builder.create(FusionTableEntity::new, FUSION_TABLE).build(null));
+
+
 		CustomShovelItem.registerItems();
+		CustomPickaxeItem.registerItems();
 		CustomAxeItem.registerItems();
+		CustomHoeItem.registerItems();
+
+		VictoriumCrystalArmor.RegisterItems();
+
+		CustomSwordItem.registerItems();
 
 		VictoriumOreBlock.registerItems();
 

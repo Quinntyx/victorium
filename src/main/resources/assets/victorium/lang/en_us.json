@@ -1,11 +1,21 @@
 {
     "item.victorium.victorium_crystal": "Victorium Crystal",
+    "item.victorium.victorium_plate": "Victorium Plate",
+    "item.victorium.victorium_blade": "Victorium Blade",
     "item.victorium.pocket_star": "Pocket Star [WIP]",
 
     "item.victorium.victorium_sword": "Victorium Sword [WIP]",
-    "item.victorium.victorium_hoe": "Victorium Hoe [NYI]",
-    "item.victorium.victorium_pickaxe": "Victorium Pickaxe [NYI]",
+    "item.victorium.victorium_hoe": "Victorium Hoe [WIP]",
+    "item.victorium.victorium_pickaxe": "Victorium Pickaxe",
+    "item.victorium.victorium_shovel": "Victorium Shovel",
+    "item.victorium.victorium_axe": "Victorium Axe",
+
+    "item.victorium.victorium_helmet": "Victorium Helmet",
+    "item.victorium.victorium_chestplate":"Victorium Chestplate",
+    "item.victorium.victorium_leggings":"Victorium Leggings",
+    "item.victorium.victorium_boots": "Victorium Boots",
 
     "block.victorium.victorium_block": "Block of Victorium Crystal",
-    "block.victorium.victorium_ore": "Victorium Ore"
+    "block.victorium.victorium_ore": "Victorium Ore",
+    "block.victorium.infinitite_block_t1": "Block of Infinitite, Tier 1"
 }
