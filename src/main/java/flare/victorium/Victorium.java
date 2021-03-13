@@ -2,6 +2,8 @@ package flare.victorium;
 
 import flare.victorium.armor.VictoriumCrystalArmor;
 import flare.victorium.blockentity.FusionTableEntity;
+import flare.victorium.fluid.FluidRegistry;
+import flare.victorium.ore.EndiumOreBlock;
 import flare.victorium.ore.VictoriumOreBlock;
 import flare.victorium.tool.*;
 import net.fabricmc.api.ModInitializer;
@@ -73,6 +75,9 @@ public class Victorium implements ModInitializer {
 		CustomSwordItem.registerItems();
 
 		VictoriumOreBlock.registerItems();
+		EndiumOreBlock.registerItems();
+
+		FluidRegistry.registerAll();
 
 	}
 }
