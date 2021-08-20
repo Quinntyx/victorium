@@ -12,7 +12,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
-public abstract class FluidAbstractViscous extends FlowableFluid {
+public abstract class  FluidAbstractViscous extends FlowableFluid {
 
     @Override
     public boolean matchesType(Fluid fluid)

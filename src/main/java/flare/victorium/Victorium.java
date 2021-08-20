@@ -69,6 +69,7 @@ public class Victorium implements ModInitializer {
 		CustomPickaxeItem.registerItems();
 		CustomAxeItem.registerItems();
 		CustomHoeItem.registerItems();
+		CustomStaffItem.registerItems();
 
 		VictoriumCrystalArmor.RegisterItems();
 
@@ -77,7 +78,7 @@ public class Victorium implements ModInitializer {
 		VictoriumOreBlock.registerItems();
 		EndiumOreBlock.registerItems();
 
-		FluidRegistry.registerAll();
+		//FluidRegistry.registerAll();
 
 	}
 }
