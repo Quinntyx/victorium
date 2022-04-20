@@ -1,6 +1,6 @@
 # Victorium
  [![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=for-the-badge)](LICENSE)
-[![Github](https://img.shields.io/badge/victorium-red?style=for-the-badge&logo=github)](https://www.github.com/serainox420/-JSForDummies2---Example-macros-for-JSM-)
+[![Github](https://img.shields.io/badge/victorium-red?style=for-the-badge&logo=github)](https://www.github.com/FlareStormGaming/victorium)
 [![CurseForge](https://img.shields.io/badge/victorium-6441A4?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/victorium)
 [![Teams](https://img.shields.io/badge/Teams-6264A7?style=for-the-badge&logo=Microsoft%20Teams&logoColor=white)](https://teams.microsoft.com)\
 [![Forks](https://img.shields.io/github/forks/FlareStormGaming/victorium?logo=github&style=for-the-badge)]()
