@@ -18,7 +18,8 @@ Credit to [Zlare](https://github.com/FlareStormGaming) (Zlare#7771 on [Discord](
 Credit to [Electroblob](https://github.com/Electroblob77) for his wonderful mod, [Electroblob's Wizardry](https://github.com/Electroblob77/Wizardry)\
   I used some of [Electroblob](https://github.com/Electroblob77)'s textures in development versions of the mod, as they were similar to some of the end goals of the       textures I actually wanted in the mod, so that's why this shout-out is here. 
   
-Credit to my awesome texture artists who came up with the final textures that made it into the mod as it currently is, `undisclosednamewithnogithubaccount1` and `undisclosednamewithnogithubaccount2`.\
+Credit to my awesome texture artists who came up with the final textures that made it into the mod as it currently is, `undisclosednamewithnogithubaccount1` and [InfinityDude777](https://www.github.com/InfinityDude777).\
+Credit to [InfinityDude777](https://www.github.com/InfinityDude777) for ideas.\
 Credit to SuitedLlama on [YouTube](https://www.youtube.com) for his awesome modding tutorials that got me into this in the first place. 
 
 ## License
