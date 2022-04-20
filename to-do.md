@@ -19,3 +19,13 @@
 - Implement some modular library stuff in a class, like for example maybe a recipe/guide book. Add methods for registering recipes for the fusion table that isn't 
 hardcoded, ideas: use GSON to read from files? Maybe port SCON to Java, or use a YAML parser also works
 
+### Ideas: 
+- Pocket star items (e.g. scythe with explosive projectiles, shield with explosive knockback)
+- Pocket star upgrade to victorium
+  - Uses durability while in item
+    - Explodes after durability is out unless taken out and regenerated
+  - More while item is being used (such as mining/hitting)
+- Better beacon?
+- Jetback/rocket boots
+- Possibly the pocket star is a magic item
+- Or a power source, like mekanism, can power furnaces, redstone, etc for a really long time (see durability & durability/tick) before exploding/etc
